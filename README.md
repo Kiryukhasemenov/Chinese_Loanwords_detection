@@ -5,7 +5,7 @@ This is a coursework of Kirill Semenov, 3rd year bachelor in Computational Lingu
 
 Here you can find my dataset created on Wikidata, as well as an analysis of the Chinese Loanword Dictionary data (汉语外来词词典).
 
-The majority of the code files are in .ipynb format, so the description of the aims and functions is inside (in Markdown format).
+The majority of the code files are in .ipynb format, so the description of the aims and functions can be found inside (in Markdown format).
 
 The `tranlsiterator.py` file is in .py format, so the information of the functions is in docstrings inside.
 
@@ -27,7 +27,7 @@ The `tranlsiterator.py` file is in .py format, so the information of the functio
 | code (.py) | [Wailaici_Cidian_comparison.ipynb](../../blob/master/Wailaici_Cidian_comparison.ipynb)      | Comparison of Xinhua prescriptions to data from Chinese Loanword Dictionary (input: , `wlc_cd.csv`)|
 | document (.pptx) | [eReL_presentation.pptx](../../blob/master/eReL_presentation.pptx)      | Project presentation on "E-dictionaries and E-lexicography" conference, Zagreb, 11.05.2019|
 
-
+### feel free to contact me at kir.semenow[at]yandex.ru !
 
 
 
