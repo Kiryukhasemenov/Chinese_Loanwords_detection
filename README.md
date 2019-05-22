@@ -1,5 +1,5 @@
 # Studies on Russian Loanword Adaptation in Chinese
-### (c) Kirill Semenov, Higher School of Economics - Moscow, 2019
+### Kirill Semenov, Higher School of Economics - Moscow, 2019
 ---
 This is a coursework of Kirill Semenov, 3rd year bachelor in Computational Linguistics, HSE-Moscow.
 
