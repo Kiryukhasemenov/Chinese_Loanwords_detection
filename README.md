@@ -3,7 +3,7 @@
 ---
 This is a coursework of Kirill Semenov, 3rd year bachelor in Computational Linguistics, HSE-Moscow.
 
-Here you can find my dataset created on Wikidata, as well as an analysis of the Chinese Loanword Dictionary data (汉语外来词词典).
+Here you can find my dataset created on Wikidata basis, as well as an analysis of the Chinese Loanword Dictionary data (汉语外来词词典).
 
 The majority of the code files are in .ipynb format, so the description of the aims and functions can be found inside (in Markdown format).
 
