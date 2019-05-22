@@ -13,16 +13,20 @@ The `tranlsiterator.py` file is in .py format, so the information of the functio
 | Type        | Filename           | Description  |
 | ------------- |:-------------:| -----:|
 | data (directory, .tsv files)     | [wikidata_source](../../tree/master/wikidata_source) | Tables in .tsv format, which are downloaded from Wikidata |
-| data (.csv)      | [data_preprocessed_with_duplicates.csv](../../blob/master/data_preprocessed_with_duplicates.csv)      |   $12 |
-| data (.csv) | [data_with_duplicates_pre_final.csv](../../blob/master/data_with_duplicates_pre_final.csv)      |    $1 |
-| data (.csv) | [data_with_duplicates_pre_final.csv](../../blob/master/data_with_duplicates_pre_final.csv)      |    $1 |
-| data (.csv) | [data_total_2.csv](../../blob/master/data_total_2.csv)      |    $1 |
-| data (.csv) | [data_with_translit_2.csv](../../blob/master/data_with_translit_2.csv)      |    $1 |
+| data (.csv)      | [data_preprocessed_with_duplicates.csv](../../blob/master/data_preprocessed_with_duplicates.csv)      | All data from Wikidata, cleared from noise |
+| data (.csv) | [data_with_duplicates_pre_final.csv](../../blob/master/data_with_duplicates_pre_final.csv)      |    All data from Wikidata, cleared from noise (supporting data, necessary for aggregation purposes) |
+| data (.csv) | [data_total.csv](../../blob/master/data_total.csv)      |    $1 |
+| data (.csv) | [data_with_translit.csv](../../blob/master/data_with_translit.csv)      |    $1 |
+| data (.csv) | [wlc_cd.csv](../../blob/master/wlc_cd.csv)      |    $1 |
 | code (.py) | [transliterator.py](../../blob/master/transliterator.py)      | Algorithm for generation of Xinhua-based transliterations |
-| code (.py) | [data_cleaner.ipynb](../../blob/master/data_cleaner.ipynb)      | Cleaning the Wikidata raw data (input: `data_preprocessed_with_duplicates.csv`, output: `data_with_duplicates_pre_final.csv`) |
-| code (.py) | [dataset_aggregation.ipynb](../../blob/master/dataset_aggregation.ipynb)      | Adding Xinhua transliteration and metrics to the clean data (input: `data_with_duplicates_pre_final.csv`, output: `data_total_2.csv`) |
-| code (.py) | [dataset_study.ipynb](../../blob/master/dataset_study.ipynb)      | Study of the dataset, many plots inside (input: `data_total_2.csv`)|
-| code (.py) | [bkrs_processing.ipynb](../../blob/master/bkrs_processing.ipynb)      | Creating the subset of proper names with pinyin transcriptions (input: `data_total_2.csv`, output: `data_with_translit_2.csv`)|
+| code (.py) | [data_cleaner.ipynb](../../blob/master/data_cleaner.ipynb)      | Cleaning the Wikidata raw data (input: `wikidata_source`, output: `data_preprocessed_with_duplicates.csv`) |
+| code (.py) | [dataset_aggregation.ipynb](../../blob/master/dataset_aggregation.ipynb)      | Adding Xinhua transliteration and metrics to the clean data (input: `data_preprocessed_with_duplicates.csv`, output: `data_total.csv`) |
+| code (.py) | [dataset_study.ipynb](../../blob/master/dataset_study.ipynb)      | Study of the dataset, many plots inside (input: `data_total.csv`)|
+| code (.py) | [bkrs_processing.ipynb](../../blob/master/bkrs_processing.ipynb)      | Creating the subset of proper names with pinyin transcriptions (input: `data_total.csv`, output: `data_with_translit.csv`)|
+| code (.py) | [BKRS_study.ipynb](../../blob/master/BKRS_study.ipynb)      | Study of the phonetic adaptation of the Russian consonants (input: `data_with_translit.csv`, `wlc_cd.csv`)|
+| code (.py) | [Wailaici_Cidian_comparison.ipynb](../../blob/master/Wailaici_Cidian_comparison.ipynb)      | Comparison of Xinhua prescriptions to data from Chinese Loanword Dictionary (input: , `wlc_cd.csv`)|
+
+
 
 
 
