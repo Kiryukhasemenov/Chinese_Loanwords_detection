@@ -26,7 +26,7 @@ The `tranlsiterator.py` file is in .py format, so the information of the functio
 | code (.py) | [bkrs_processing.ipynb](../../blob/master/bkrs_processing.ipynb)      | Creating the subset of proper names with pinyin transcriptions (input: `data_total.csv`, output: `data_with_translit.csv`)|
 | code (.py) | [BKRS_study.ipynb](../../blob/master/BKRS_study.ipynb)      | Study of the phonetic adaptation of the Russian consonants (input: `data_with_translit.csv`, `wlc_cd.csv`)|
 | code (.py) | [Wailaici_Cidian_comparison.ipynb](../../blob/master/Wailaici_Cidian_comparison.ipynb)      | Comparison of Xinhua prescriptions to data from Chinese Loanword Dictionary (input: , `wlc_cd.csv`)|
-| document (.pdf) | [eReL_presentation.pdf](../../blob/master/eReL_presentation.pptx)      | Project presentation on "E-dictionaries and E-lexicography" conference, Zagreb, 11.05.2019|
+| document (.pdf) | [eReL_presentation.pdf](../../blob/master/eReL_presentation.pdf)      | Project presentation on "E-dictionaries and E-lexicography" conference, Zagreb, 11.05.2019|
 
 ### feel free to contact me at kir.semenow[at]yandex.ru !
 
